@@ -1,36 +1,10 @@
 {
   "pages": {
-    "/(LandingPage)/v2/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(LandingPage)/v2/layout.css",
-      "static/chunks/app/(LandingPage)/v2/layout.js"
-    ],
-    "/(LandingPage)/v2/home/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(LandingPage)/v2/home/page.js"
-    ],
-    "/(LandingPage)/v2/login/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(LandingPage)/v2/login/page.js"
-    ],
-    "/api/auth/[...nextauth]/route": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/api/auth/[...nextauth]/route.js"
-    ],
     "/(UserLayout)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/(UserLayout)/layout.css",
       "static/chunks/app/(UserLayout)/layout.js"
-    ],
-    "/(UserLayout)/v1/dashboard/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(UserLayout)/v1/dashboard/page.js"
     ],
     "/(UserLayout)/v1/ai-chatbot/page": [
       "static/chunks/webpack.js",
@@ -41,11 +15,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/api/chat/route.js"
-    ],
-    "/_not-found/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
     ]
   }
 }
