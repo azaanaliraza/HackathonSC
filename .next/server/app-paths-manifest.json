@@ -1,0 +1,9 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/api/chat/route": "app/api/chat/route.js",
+  "/(LandingPage)/v2/home/page": "app/(LandingPage)/v2/home/page.js",
+  "/(LandingPage)/v2/login/page": "app/(LandingPage)/v2/login/page.js",
+  "/(UserLayout)/v1/dashboard/page": "app/(UserLayout)/v1/dashboard/page.js",
+  "/(UserLayout)/v1/ai-chatbot/page": "app/(UserLayout)/v1/ai-chatbot/page.js"
+}
